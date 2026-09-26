@@ -42,13 +42,13 @@
   /* Header */
   .header {
     background: var(--navy);
-    padding-top: calc(env(safe-area-inset-top, 0px) + 20px);
+    padding-top: calc(env(safe-area-inset-top, 0px));
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.22);
     position: relative;
     z-index: 2;
   }
   .nav {
-    height: 64px;
+    height: 48px;
     display: flex;
     align-items: center;
     padding: 0 12px 6px 18px;
@@ -140,7 +140,7 @@
     gap: 16px;
     color: var(--link);
     font-size: 15px;
-    padding-bottom: 72px;
+    padding-bottom: 30px;
   }
   .balance svg { width: 13px; height: 8px; }
 </style>
@@ -179,7 +179,7 @@
 
     <div class="balance">
       <svg viewBox="0 0 13 8" fill="none" stroke="#1072C6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 7 L6.5 1.5 L12 7"/></svg>
-      <span>More Info</span>
+      <span>Show Balance</span>
     </div>
   </main>
 </div>
