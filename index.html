@@ -42,13 +42,13 @@
   /* Header */
   .header {
     background: var(--navy);
-    padding-top: calc(env(safe-area-inset-top, 0px));
+    padding-top: calc(env(safe-area-inset-top, 0px) + 10px);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.22);
     position: relative;
     z-index: 2;
   }
   .nav {
-    height: 48px;
+    height: 54px;
     display: flex;
     align-items: center;
     padding: 0 12px 6px 18px;
@@ -140,7 +140,7 @@
     gap: 16px;
     color: var(--link);
     font-size: 15px;
-    padding-bottom: 30px;
+    padding-bottom: 16px;
   }
   .balance svg { width: 13px; height: 8px; }
 </style>
